@@ -1,0 +1,166 @@
+Aggregate Functions (Transact-SQL)=
+An aggregate function performs a calculation on a set of values, and returns a single value. Except for COUNT(*), aggregate functions ignore null values. Aggregate functions are often used with the GROUP BY clause of the SELECT statement.
+
+In other words, aggregate functions return the same value each time that they are called, when called with a specific set 
+of input values.ransact-SQL provides the following aggregate functions:
+
+APPROX_COUNT_DISTINCT
+AVG
+CHECKSUM_AGG
+COUNT
+COUNT_BIG
+GROUPING
+GROUPING_ID
+MAX
+MIN
+STDEV
+STDEVP
+STRING_AGG
+SUM
+VAR
+VARP
+
+
+What is meant by star schema?
+
+A star schema is a database organizational structure optimized for use in a data warehouse or business intelligence that uses a single large fact table to store transactional or measured data, and one or more smaller dimensional tables that store attributes about the data.
+
+
+What is complex query in SQL with example?
+As the name suggests, a complex query has a complex syntax and can comprise multiple parts. A purpose of such a query is to search data based on several parameters. For instance, a complex query can include several joins across tables or have subqueries (a query nested within another query).
+
+Google Compute Engine (GCE) is an infrastructure as a service (IaaS) offering that allows clients to run workloads on Google's physical hardware. Google Compute Engine provides a scalable number of virtual machines (VMs) to serve as large compute clusters for that purpose.
+
+SUBSTRING in SQL is a function used to retrieve characters from a string. With the help of this function, you can retrieve any number of substrings from a single string
+
+What is the use of Hive?
+
+Hive allows users to read, write, and manage petabytes of data using SQL. Hive is built on top of Apache Hadoop, which is an open-source framework used to efficiently store and process large datasets. As a result, Hive is closely integrated with Hadoop, and is designed to work quickly on petabytes of data.
+
+What is schema in MySQL?
+The mysql schema is the system schema. It contains tables that store information required by the MySQL server as it runs. A broad categorization is that the mysql schema contains data dictionary tables that store database object metadata, and system tables used for other operational purposes.
+
+UNION ALL command is equal to UNION command, except that UNION ALL selects all the values. The difference between Union and Union all is that Union all will not eliminate duplicate rows, instead it just pulls all the rows from all the tables fitting your query specifics and combines them into a table
+
+What is bucket in Google Cloud Storage?
+Buckets are the basic containers that are used to store the data. With buckets, you can organize data, and give control access. The bucket has a globally-unique name with a geographic location where the contents are stores. It also has a default storage class that is applied to the objects which don’t have a storage class specified and are added to the bucket. There is also no limit on the creation or deletion of the buckets.
+
+What is gcp storage?
+GCP storage is a cloud storage service offered by Google. It allows you to access your data from anywhere in the world at any time. This storage is highly durable, secured, and scalable. With this storage service, you can store your personal data, application data, client’s data, and more.
+
+What is Load Balancing in cloud computing?
+Load Balancing is the process of distributing the computing resources and workloads in a cloud computing environment to manage the demands. It helps to achieve high performance for lower costs as the workload demands are efficiently managed with the allocation of resources. It uses the concept of scalability and agility to improve the availability of resources to the demands. It is also used to provide health check-ups for the cloud application. This feature is offered by all the major cloud vendors like AWS, GCP, Azure, etc.
+
+Explain what is BigQuery?
+BigQuery is an enterprise warehouse service offered in the Google Cloud Platform. This highly-scalable cost-effective product has an in-memory data analysis engine and machine learning built-in. It gives you the option to quickly analyze the data in real-time and create analytical reports with the help of a data analytics engine. BigQuery can also process external data sources in object storage, transactional database, or spreadsheets.
+
+What is Google Cloud SDK?
+Google Cloud SDK is a set of command-line tools. It is used for the development of the Google cloud. With these tools, you can access the compute engine, cloud storage, bigquery, and other services directly from the command line. It also comes with client libraries and API libraries. With these tools and libraries, you can work with VM instances, manage computer engine networks, firewalls & storage, and more.
+
+What is Google App Engine?
+A Paas (Platform as a Service) product, Google App Engine provides scalable services to web app developers and enterprises. With this, developers can build and deploy a fully managed platform and scale when needed.
+
+It has support for popular programming languages such as Java, PHP, Python, C#, .Net, Go, and Node.js. It is also flexible so you can develop powerful applications.
+
+
+What is Google Cloud Computing?
+Google Cloud Platform is a set of computing services that provides infrastructure as service, platform as service, and serverless computing. Services such as cloud data storage, data analytics, compute engine and machine learning are some examples of it. First released in 2008, GCP is one of the popular cloud service platforms available in the market along with Amazon Web Service, and Microsoft Azure.
+
+List major components of the Google Cloud Platform?
+Some major components of GCP are,
+
+Compute engine such as App Engine, Kubernetes, etc.
+Storage and Database components.
+Networking components such as VPC, Cloud Armor, and more.
+Big Data components.
+Identity and Security tools like Cloud IAM, Cloud Identity, and more.
+Management tools like Trace, logging, and debugger.
+Developer tools like Cloud test lab, container builder, and more.
+Productivity and professional tools.
+
+What is Object Versioning in GCP? 	
+Object versioning is used to retrieve objects which are overwritten or deleted. Object versioning increases the storage costs but it provides security for objects when they are deleted or overwritten. On enabling the object versioning in the GCP bucket, a noncurrent version of the object is created every time when the object is overwritten or deleted. The properties used to identify a version of the object are generation and metageneration. Generation identifies the content generation while metageneration identifies the metadata generation.
+
+List types of development models available in Cloud computing?
+
+Four types of development models in Cloud computing are,
+
+Public cloud - This type of cloud can be accessed by all on a subscription basis. The public can access resources such as OS, CPU, memory, and storage.
+Private cloud - This type of infrastructure is used by a single organization and not by the general public. They are typically more expensive to build than public clouds.
+Hybrid cloud - This infrastructure uses a combination of public and private clouds. It is used by many organizations to rapidly scale up their resources when needed.
+Community cloud - Here, multiple organizations share their resource and create a pool which is restricted to the members of the community
+
+What is VPC in the Google cloud platform?
+
+Virtual Private Cloud (VPC) in GCP is a virtual network that provides connectivity to your VM instances of compute engine, GKE (Google Kubernetes Engine) clusters, and many other resources. The VPC provides much flexibility in controlling how the workloads connect regionally or globally. A single VPC can span multiple regions without communicating across the public internet.
+
+What is Serverless computing?
+In serverless computing, the cloud service provider has a server running in the cloud and dynamically manages the allocation of resources. The provider provides the necessary infrastructure for the user to work on without any worries about the hardware. The users need to pay for the resources they have used. It simplifies the process of code deployment while removing any worries regarding scalability, maintenance for the users. It is a form of utility computing.
+
+
+Enlist some major features provided by Google cloud platform? 	
+Enlist somSome of the major features of GCP are,
+
+GCP provides an easy way to rightsize your Virtual machine resources such as CPU, RAM, and storage. The VM rightsizing recommendation feature gives you a glance at whether your machines are with the right size of resources.
+The Google cloud shell present with GCP has many pre-installed tools and lets you control the various processes from the shell. Some preinstalled tools are Docker, Gradle, Make, npm, nvm, pip, and more.
+You can easily create your custom machine type with varying resources of CPU, memory, storage with GCP.
+It has preemptible VMs so fault-tolerant jobs and batch jobs cost up to 70 % less than normal.
+The Cloud SQL feature present in GCP automatically checks the storage available in the database every 30 seconds and adds when it is needed.
+You can resize persistent disk in-pace without any downtime.
+
+Data Models Describe Business Entities and Relationships
+Data models are made up of entities, which are the objects or concepts we want to track data about, and they become the tables in a database. Products, vendors, and customers are all examples of potential entities in a data model.
+
+Star Schema:
+Star schema is the type of multidimensional model which is used for data warehouse. In star schema, The fact tables and the dimension tables are contained. In this schema fewer foreign-key join is used. This schema forms a star with fact table and dimension tables.
+
+Snowflake Schema:
+Snowflake Schema is also the type of multidimensional model which is used for data warehouse. In snowflake schema, The fact tables, dimension tables as well as sub dimension tables are contained. This schema forms a snowflake with fact tables, dimension tables as well as sub-dimension tables.
+
+What is difference between snowflake and star schema?
+A star schema contains both dimension tables and fact tables in it. A snowflake schema contains all three- dimension tables, fact tables, and sub-dimension tables. It is a top-down model type.
+
+Data warehouse---In computing, a data warehouse, also known as an enterprise data warehouse, is a system used for reporting and data analysis and is considered a core component of business intelligence. DWs are central repositories of integrated data from one or more disparate sources.
+A data warehouse is a central repository of information that can be analyzed to make more informed decisions. Data flows into a data warehouse from transactional systems, relational databases, and other sources, typically on a regular cadence.
+
+Define Data Mart : A Data Mart is defined as a subset of Data Warehouse that is focused on a single functional area of an organization. Data Mart helps to enhance user's response time due to a reduction in the volume of data. Three types of data mart are 1) Dependent 2) Independent 3) Hybrid.
+
+
+Normalization---- is the technique of dividing the data into multiple tables to reduce data redundancy and inconsistency and to achieve data integrity. On the other hand, Denormalization---- is the technique of combining the data into a single table to make data retrieval faster.
+
+What is constraint and its types?
+Constraints can be categorized into five types: A NOT NULL constraint is a rule that prevents null values from being entered into one or more columns within a table. A unique constraint (also referred to as a unique key constraint) is a rule that forbids duplicate values in one or more columns within a table.
+
+Integrity Constraints are the protocols that a table's data columns must follow. These are used to restrict the types of information that can be entered into a table. This means that the data in the database is accurate and reliable. You may apply integrity Constraints at the column or table level
+
+What is data redundancy explain?
+Data redundancy refers to the practice of keeping data in two or more places within a database or data storage system. Data redundancy ensures an organization can provide continued operations or services in the event something happens to its data -- for example, in the case of data corruption or data loss.
+
+A dataset is a snapshot of all the information in a database at a given moment in time. The data in a dataset is further segmented into structures called tables. A table contains information that goes together. For example, all of the people in an address book could go in a table called Contacts.
+
+SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+
+SQL Server contains the following 6 types of constraints:
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
